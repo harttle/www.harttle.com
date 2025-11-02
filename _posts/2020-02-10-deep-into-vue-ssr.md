@@ -157,5 +157,5 @@ fallback 到 `Promise#then()` 和 `setTimeout()`。
 [vm]: https://nodejs.org/api/vm.html
 [runinnewcontext]: https://nodejs.org/api/vm.html#vm_script_runinnewcontext_contextobject_options
 [vue]: https://github.com/vuejs/vue
-[html-cache]: https://harttle.land/2015/10/06/html-cache.html
+[html-cache]: https://www.harttle.com/2015/10/06/html-cache.html
 [render.js]: https://github.com/vuejs/vue/blob/0948d999f2fddf9f90991956493f976273c5da1f/src/core/instance/render.js#L60-L118

@@ -46,7 +46,7 @@ vim --version | grep clipboard
 
 Vim 有 48 个寄存器，`y`, `d`, `p` 等命令一般使用匿名寄存器 `""`，
 支持剪贴板的 Vim 会支持额外的选区寄存器 `"*` 和 `"+`。
-更多 Vim 寄存器的信息，可以参考这篇文章：[Vim 寄存器完全手册](https://harttle.land/2016/07/25/vim-registers.html)。
+更多 Vim 寄存器的信息，可以参考这篇文章：[Vim 寄存器完全手册](https://www.harttle.com/2016/07/25/vim-registers.html)。
 
 `"*` 和 `"+` 在 Mac 和 Windows 中，都是指系统剪贴板（clipboard），例如 `"*yy` 即可复制当前行到剪贴板。
 其他程序中复制的内容也会被存储到这两个寄存器中。

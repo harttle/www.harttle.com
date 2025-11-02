@@ -88,7 +88,7 @@ bash install.sh
 * `/etc/shadow`(400)：所有用户的用户密码的Salt和Hash
 * `/etc/shells`(644)：登录Shell列表，`chsh -s <shell-name>`只能选自该列表
 
-更多 Shell 的概念可以参考 [Shell 的相关概念和配置方法](https://harttle.land/2016/06/08/shell-config-files.html) 一文。
+更多 Shell 的概念可以参考 [Shell 的相关概念和配置方法](https://www.harttle.com/2016/06/08/shell-config-files.html) 一文。
 上述 oh-my-zsh 提供的 install.sh 会使用 `chsh` 更改你的登录 Shell：
 
 ```bash

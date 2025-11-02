@@ -19,7 +19,7 @@ tags: HTML 响应式 媒体查询 图片
 （准确地说属于 [Phrasing Content][phrasing-content]）。下面是一个示例：
 
 ```html
-<img src="https://harttle.land/assets/img/avatar.jpg" alt="the author">
+<img src="https://www.harttle.com/assets/img/avatar.jpg" alt="the author">
 ```
 
 [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) 是 HTML5 中定义新标签，
@@ -30,7 +30,7 @@ tags: HTML 响应式 媒体查询 图片
 ```html
 <picture>
  <source srcset="harttle-land-avatar.png" media="(min-width: 750px)">
- <img src="harttle-land-banner.png" alt="a banner for harttle.land">
+ <img src="harttle-land-banner.png" alt="a banner for www.harttle.com">
 </picture>
 ```
 
@@ -40,7 +40,7 @@ tags: HTML 响应式 媒体查询 图片
 
 ```html
 <figure>
-  <img src="https://harttle.land/assets/img/avatar.jpg" alt="the author">
+  <img src="https://www.harttle.com/assets/img/avatar.jpg" alt="the author">
   <figcaption>Harttle's Avatar</figcaption>
 </figure>
 ```
@@ -130,7 +130,7 @@ tags: HTML 响应式 媒体查询 图片
 
 ```html
 这是一张照片，
-<img src="https://harttle.land/assets/img/avatar.jpg" alt="照片">
+<img src="https://www.harttle.com/assets/img/avatar.jpg" alt="照片">
 他是一个前端搬砖工，还好会写博客。
 ```
 
@@ -139,7 +139,7 @@ tags: HTML 响应式 媒体查询 图片
 
 ```html
 这是一张照片，
-<img src="https://harttle.land/assets/img/avatar.jpg" alt="像红衣主教一样的一个人，正在吹笛子">
+<img src="https://www.harttle.com/assets/img/avatar.jpg" alt="像红衣主教一样的一个人，正在吹笛子">
 他是一个前端搬砖工，还好会写博客。
 ```
 

@@ -52,7 +52,7 @@ add Control = Control_L
 匹配到之后，要更改的是从 scancode 到 keycode 的映射。能够解决这几个具体问题：
 
 1. 外接 HHKB 不改，Ctrl 还是 Ctrl。Macbook Pro 内置键盘要改，交换 CapsLock 和左 Ctrl。
-2. 对于 X11 里的应用生效，对于 [Virtual Console](https://harttle.land/2016/06/08/shell-config-files.html) 也生效。总之只要内核启动了，它就生效了。
+2. 对于 X11 里的应用生效，对于 [Virtual Console](https://www.harttle.com/2016/06/08/shell-config-files.html) 也生效。总之只要内核启动了，它就生效了。
 
 ArchLinux 的文档在这里：<https://wiki.archlinux.org/index.php/Map_scancodes_to_keycodes>。大意是使用 udev 更改硬件数据库（hwdb）。
 
@@ -109,4 +109,4 @@ evdev:input:b0003v05ACp0259*
 
 > 有个技巧：setkeycodes 命令可以不重启看效果，语法可以 man setkeycodes。
 
-[macbook-arch]: https://harttle.land/2019/04/26/macbook-archlinux-install.html
+[macbook-arch]: https://www.harttle.com/2019/04/26/macbook-archlinux-install.html

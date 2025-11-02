@@ -5,7 +5,7 @@ tags: TypeScript 依赖注入 装饰器
 
 [依赖注入](/2016/11/12/dependency-injection.html) 是编写可测试/复用代码的关键。
 在 TypeScript 中所有对象、属性和方法都有类型，可以大幅简化人工标注的代码，这让很多人重新考虑在 JavaScript 中实现依赖注入。
-比如 [Angular2 以后的 DI 实现](https://harttle.land/2019/05/27/how-angular-di-works.html)。
+比如 [Angular2 以后的 DI 实现](https://www.harttle.com/2019/05/27/how-angular-di-works.html)。
 本文用来讨论 TypeScript 仍然无法解决哪些问题，以及相关技术可能存在的风险。
 
 首先简单过一下基于 TypeScript 做依赖注入的步骤。

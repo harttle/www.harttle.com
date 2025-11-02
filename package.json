@@ -1,7 +1,7 @@
 {
-  "name": "harttle.land",
+  "name": "www.harttle.com",
   "version": "1.0.0",
-  "description": "source code for https://harttle.land",
+  "description": "source code for https://www.harttle.com",
   "devDependencies": {
     "eslint": "^9.32.0",
     "eslint-config-standard": "^10.2.1",

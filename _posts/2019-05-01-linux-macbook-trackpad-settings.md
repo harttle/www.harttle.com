@@ -29,7 +29,7 @@ tags: Linux MacBook xinput X11 触摸板 i3wm
 本文中的文件路径和软件按住方式都以 ArchLinux 为例。
 xorg 软件包绑定依赖了 xf86-input-libinput，但它对多点触控支持不够好。
 我们需要安装一个 AUR 里的驱动： xf86-input-mtrack。
-还没有 AUR 工具的同学请可以参考 [安装 AUR 软件包](https://harttle.land/2019/04/30/install-aur-package.html) 一文。
+还没有 AUR 工具的同学请可以参考 [安装 AUR 软件包](https://www.harttle.com/2019/04/30/install-aur-package.html) 一文。
 
 > xf86-input-mtrack 已经很多年没有更新了，如果想要一些新的功能，可以手动安装 [p2rkw 的 fork](https://github.com/p2rkw/xf86-input-mtrack/) xf86-input-mtrack-git。
 > 它在我的电脑上有一个问题：双指滚动总是断续的，像是在模拟滚轮。但旧的 xf86-input-mtrack 则没有这个问题。
@@ -261,4 +261,4 @@ systemctl enable --user dispad.service
 * xorg ArchWiki：<https://wiki.archlinux.org/index.php/Xorg>
 
 [xorg.conf]: https://jlk.fjfi.cvut.cz/arch/manpages/man/xorg.conf.5
-[install-from-aur]: https://harttle.land/2019/04/30/install-aur-package.html
+[install-from-aur]: https://www.harttle.com/2019/04/30/install-aur-package.html

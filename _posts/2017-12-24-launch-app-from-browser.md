@@ -67,7 +67,7 @@ URI Scheme 较为简单容易理解，但它的缺点也比较明显：
 例如：
 
 ```html
-<a href="https://harttle.land/about.html"></a>
+<a href="https://www.harttle.com/about.html"></a>
 ```
 
 Universal Link 通过 Web 服务器验证的方式避免了 URI Scheme 的命名冲突。
@@ -95,7 +95,7 @@ Universal Link 通过 Web 服务器验证的方式避免了 URI Scheme 的命名
 它的值是一个 [`encodeURIComponent`][encodeURIComponent] 过的 URL，例如：
 
 ```html
-<a href="intent://about/#Intent;scheme=harttle;package=land.harttle;S.browser_fallback_url=http%3A%2F%2Fharttle.land%2Fabout.html;end"></a>
+<a href="intent://about/#Intent;scheme=harttle;package=land.harttle;S.browser_fallback_url=http%3A%2F%2Fwww.harttle.com%2Fabout.html;end"></a>
 ```
 
 如果已安装，Chrome 会不询问用户直接调起 App。如果未安装，Chrome 会跳转至 `S.browser_fallback_url`。
@@ -107,7 +107,7 @@ Universal Link 通过 Web 服务器验证的方式避免了 URI Scheme 的命名
 例如下面的 URL：
 
 ```html
-<a href="https://harttle.land/about.html"></a>
+<a href="https://www.harttle.com/about.html"></a>
 ```
 
 需要服务器端给出 `assetlinks.json` 以验证 App 的 URL 绑定。

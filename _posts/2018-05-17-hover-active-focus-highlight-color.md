@@ -82,6 +82,6 @@ a {
 * **Android** 指 Android 下绝大多数浏览器，它们对上述四者的表现完全一致。
 * **鼠标左键** 是指 Primary Button，也就是右手鼠标的左键。
 
-[demo]: https://harttle.land/active-focus-hover-highlight
+[demo]: https://www.harttle.com/active-focus-hover-highlight
 [dom-l2]: https://www.w3.org/TR/DOM-Level-2-HTML/html.html
 [touchevents]: https://developer.mozilla.org/en-US/docs/Web/API/Touch_events

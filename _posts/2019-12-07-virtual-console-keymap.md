@@ -10,7 +10,7 @@ tags: ArchLinux keycode TTY X11 vconsole
 这两份配置的不同导致了在 VT 下 RightAlt 不能正确映射。
 这里我们关心的是 keycode 到 keysym 的映射关系，
 更过关于 scancode, keycode, keysym 的概念解释可以先参考
-[ArchLinux 键盘映射](https://harttle.land/2019/08/08/linux-keymap-on-macbook.html) 的第一小节。
+[ArchLinux 键盘映射](https://www.harttle.com/2019/08/08/linux-keymap-on-macbook.html) 的第一小节。
 这个 keycode 到 keysym 的映射关系就是我们常说的 keymap，
 就是装各种系统时要选的键盘布局。
 所有的 keymap 都存在 `/usr/share/dbd/keymaps` 中：
@@ -71,7 +71,7 @@ echo hello > /dev/tty2
 ```
 
 你可以在第二个 VT 上看到 `"hello"` 字样输出。还分不清 VT、Shell、Terminal 概念的请看这篇扫盲文章：
-[Shell 的相关概念和配置方法](https://harttle.land/2016/06/08/shell-config-files.html)。
+[Shell 的相关概念和配置方法](https://www.harttle.com/2016/06/08/shell-config-files.html)。
 VT 下的键盘映射可以通过 `dumpkeys` 来查看：
 
 ```bash

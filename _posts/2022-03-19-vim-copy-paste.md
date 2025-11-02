@@ -15,7 +15,7 @@ tags: Vim 剪贴板 寄存器 快捷键
 1. 进入 normal/正常模式（刚进入 vim 的默认模式），如果你在 insert 模式，按下若干次 Esc 可以进入 normal 模式。
 2. 把光标移动到开始复制的位置。
 2. 按下 `v` 来选择字符。（也可以用 `V` 来选择整行，`Ctrl-v` 来选择矩形块）
-3. [光标移动](https://harttle.land/2015/11/07/vim-cursor.html) 到结束复制的位置。
+3. [光标移动](https://www.harttle.com/2015/11/07/vim-cursor.html) 到结束复制的位置。
 4. 按下 `y` 来复制。
 5. 光标移动到想要粘贴的位置，按下 `p` 粘贴。（或者 `P` 粘贴在当前光标位置之前）。
 
@@ -24,7 +24,7 @@ tags: Vim 剪贴板 寄存器 快捷键
 ## 剪切粘贴
 
 1. 进入 normal 模式（刚进入 vim 的默认模式），如果你在 insert 模式，按下若干次 Esc 可以进入 normal 模式。
-2. 把 [光标移动](https://harttle.land/2015/11/07/vim-cursor.html) 到开始复制的位置。
+2. 把 [光标移动](https://www.harttle.com/2015/11/07/vim-cursor.html) 到开始复制的位置。
 2. 按下 `v` 来选择字符。（也可以用 `V` 来选择整行，`Ctrl-v` 来选择矩形块）
 3. 光标移动到结束复制的位置。
 4. 按下 `d` 来剪切。
@@ -41,7 +41,7 @@ tags: Vim 剪贴板 寄存器 快捷键
 - `yf.` 复制直到下一个 `.` 字符。
 - `ggyG` 或 `:%y` 复制整个文件。
 
-以上 `y` 改成 `d` 就可以用于剪切，更多光标移动方式可以参考 [Vim 中如何快速移动光标？](https://harttle.land/2015/11/07/vim-cursor.html)。
+以上 `y` 改成 `d` 就可以用于剪切，更多光标移动方式可以参考 [Vim 中如何快速移动光标？](https://www.harttle.com/2015/11/07/vim-cursor.html)。
 
 ## 在 insert/插入模式粘贴
 
@@ -50,7 +50,7 @@ tags: Vim 剪贴板 寄存器 快捷键
 - `Ctrl+r` `"` 插入最近一次复制/剪切/删除的内容。`"` 是 Vim 的匿名寄存器。
 - `Ctrl+r` `0` 插入最近一次复制的内容。其中 `0` 属于 Vim 的编号寄存器，保存最近一次拷贝的内容。
 
-此外寄存器还保存有当前文件名、最近一次执行的命令、最近一次搜索内容、最近一次插入文本等。可以参考 [Vim 寄存器完全手册](https://harttle.land/2016/07/25/vim-registers.html)。
+此外寄存器还保存有当前文件名、最近一次执行的命令、最近一次搜索内容、最近一次插入文本等。可以参考 [Vim 寄存器完全手册](https://www.harttle.com/2016/07/25/vim-registers.html)。
 
 ## 在 command-line/命令行模式粘贴
 
@@ -86,5 +86,5 @@ Vim 有 26 个命名寄存器（`"a`-`"z`），可以在删除或复制之前加
 
 通常 `set clipboard=unnamed` 即可和系统共享剪贴板，但也和你的具体环境有关，可以参考：
 
-- [Vim 使用系统剪贴板](https://harttle.land/2020/09/04/vim-clipboard.html)
-- [Vim、Tmux、系统共用剪贴板](https://harttle.land/2017/06/23/vim-tmux-clipboard.html)
+- [Vim 使用系统剪贴板](https://www.harttle.com/2020/09/04/vim-clipboard.html)
+- [Vim、Tmux、系统共用剪贴板](https://www.harttle.com/2017/06/23/vim-tmux-clipboard.html)

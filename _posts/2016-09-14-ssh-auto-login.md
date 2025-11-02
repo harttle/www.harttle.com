@@ -34,7 +34,7 @@ SSH 协议包括三部分：传输协议，连接协议和认证协议。其中�
 如果没有为这些文件设置应用的权限，SSH 甚至会拒绝发起连接。
 
 ```bash
-➜  harttle.land git:(master) ✗ ll ~/.ssh
+➜  www.harttle.com git:(master) ✗ ll ~/.ssh
 -rw-r--r-- 1 harttle staff  650  8 26 17:27 config
 -rw------- 1 harttle staff 1.7K  4 29  2014 id_rsa
 -rw------- 1 harttle staff  402  4 29  2014 id_rsa.pub
@@ -124,7 +124,7 @@ ssh yangjvn@126.com
 
 ### 客户端配置
 
-客户端配置可以方便SSH连接过程。上述代码中连接到`harttle.land`并不困难，
+客户端配置可以方便SSH连接过程。上述代码中连接到`www.harttle.com`并不困难，
 但是如果你的服务器自定义的端口，或者需要自定义私钥路径，或者要X Forward，
 这个连接命令就复杂了：
 
@@ -138,7 +138,7 @@ Host harttle
     Port 2222
     ForwardX11 yes
     User harttle
-    Hostname harttle.land
+    Hostname www.harttle.com
 ```
 
 注意X11转发需要服务器端设置（`/etc/sshd_config`文件）：

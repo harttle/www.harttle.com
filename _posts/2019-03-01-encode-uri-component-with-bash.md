@@ -28,7 +28,7 @@ echo -n harttle | xxd -p | tr -d '\n' | sed 's/\(..\)/%\1/g'
 解码相对麻烦，因为非编码的部分要保持原状：
 
 ```bash
-echo -n https%3a%2f%2fharttle.land | sed 's/%/\\x/g' | xargs -0 printf '%b'
+echo -n https%3a%2f%2fwww.harttle.com | sed 's/%/\\x/g' | xargs -0 printf '%b'
 ```
 
 同样地，首先 `-n` 禁止 echo 添加行尾回车，用 sed 把百分号替换为 `\x`，再用 printf 把它作为二进制输入打出来。详细讨论请参考：<https://unix.stackexchange.com/questions/159253/decoding-url-encoding-percent-encoding>
@@ -46,7 +46,7 @@ alias decodeURIComponent="sed 's/%/\\\\x/g' | xargs -0 printf '%b'"
 
 ```bash
 echo harttle | encodeURIComponent
-echo https%3a%2f%2fharttle.land | decodeURIComponent
+echo https%3a%2f%2fwww.harttle.com | decodeURIComponent
 ```
 
 [rfc3986]: https://tools.ietf.org/html/rfc3986

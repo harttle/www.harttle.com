@@ -10,8 +10,8 @@ Angular 2 以后借助 TypeScript 的类型分析，可以干脆省去了 Angula
 本文用来解释这个魔法是怎么工作的，以及相关的标准化 Proposal 和实现 Trick。
 
 > 对于不熟悉依赖注入的同学可以参考我的另外两篇文章
-> [什么时候应该使用依赖注入](https://harttle.land/2016/11/12/dependency-injection.html) 和
-> [JavaScript 依赖注入实现](https://harttle.land/2016/11/19/javascript-dependency-injection-implementation.html)，
+> [什么时候应该使用依赖注入](https://www.harttle.com/2016/11/12/dependency-injection.html) 和
+> [JavaScript 依赖注入实现](https://www.harttle.com/2016/11/19/javascript-dependency-injection-implementation.html)，
 > 或者 [Wikipedia: DI](https://en.wikipedia.org/wiki/Dependency_injection)。这里还有一篇 Angular 的教程：<https://angular.io/guide/dependency-injection>
 
 <!--more-->

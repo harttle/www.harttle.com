@@ -8,7 +8,7 @@ tags: ArchLinux Mac systemd 屏幕背光
 先解释背光控制的机制，再给如何入配置和调试。
 本文以 MacBook Pro 2013 Late 为例（intel 显卡，`xf86-video-intel` 驱动）。
 
-> 本文只解决背光恢复的问题，如果你的 Fn 功能键无法调整背光，请参考 [在 MacBookPro 上安装 ArchLinux](https://harttle.land/2019/04/26/macbook-archlinux-install.html) 中的“显示器/键盘背光”一节。
+> 本文只解决背光恢复的问题，如果你的 Fn 功能键无法调整背光，请参考 [在 MacBookPro 上安装 ArchLinux](https://www.harttle.com/2019/04/26/macbook-archlinux-install.html) 中的“显示器/键盘背光”一节。
 
 <!--more-->
 
@@ -110,4 +110,4 @@ echo 80 > /sys/class/backlight/intel_backlight/brightness
 * <https://wiki.archlinux.org/index.php/Backlight#Kernel_command-line_options>
 * <https://wiki.archlinux.org/index.php/Kernel_parameters#rEFInd>
 * <https://wiki.archlinux.org/index.php/Systemd>
-* <https://harttle.land/2019/04/26/macbook-archlinux-install.html>
+* <https://www.harttle.com/2019/04/26/macbook-archlinux-install.html>

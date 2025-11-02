@@ -11,7 +11,7 @@ JavaScript 在 1.1 就支持 `Date` 对象，所有主流浏览器都支持。
 
 ## UTC 时间
 
-UTC、GMT、当地时间（LT）这些概念就不重复了，大概 UTC 和 GMT 都等于零时区的当地时间。具体可以参考 [Linux/Windows 时间不一致问题](https://harttle.land/2015/05/02/linux-windows-time.html)。
+UTC、GMT、当地时间（LT）这些概念就不重复了，大概 UTC 和 GMT 都等于零时区的当地时间。具体可以参考 [Linux/Windows 时间不一致问题](https://www.harttle.com/2015/05/02/linux-windows-time.html)。
 在多数语言和数据库里，DateTime 的存储都采用 UTC 时间，不存具体的时区信息。
 因为 UTC 时间就是零时区的当地时间，下文把这个时间称为绝对时间。
 

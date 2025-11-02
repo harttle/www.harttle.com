@@ -23,7 +23,7 @@ Rational a, b;
 Rational c = a*b;
 ```
 
-> Update：C11 move 语义为这种情况提供了更好的支持，参考 <https://harttle.land/2015/10/11/cpp11-rvalue.html> 感谢 [Enyala][Enyala] 的评论。
+> Update：C11 move 语义为这种情况提供了更好的支持，参考 <https://www.harttle.com/2015/10/11/cpp11-rvalue.html> 感谢 [Enyala][Enyala] 的评论。
 
 <!--more-->
 

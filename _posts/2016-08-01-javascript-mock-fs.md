@@ -34,7 +34,7 @@ var mock = require('mock-fs');
 describe('fs', function() {
     beforeEach(function() {
         mock({
-            './CNAME': 'harttle.land',
+            './CNAME': 'www.harttle.com',
             './_config.yml': 'empty'
         });
     });
@@ -44,7 +44,7 @@ describe('fs', function() {
     describe('#readFileSync()', function() {
         it('should read all content', function() {
             var str = fs.readFileSync('CNAME', 'utf8');
-            expect(str).to.equal('harttle.land');
+            expect(str).to.equal('www.harttle.com');
         });
     });
 });

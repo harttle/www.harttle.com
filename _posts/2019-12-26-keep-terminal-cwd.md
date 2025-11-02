@@ -66,5 +66,5 @@ fi
 termite --directory="$WHEREAMI"
 ```
 
-[shell]: https://harttle.land/2016/06/08/shell-config-files.html
+[shell]: https://www.harttle.com/2016/06/08/shell-config-files.html
 [i3wm]: http://i3wm.org/

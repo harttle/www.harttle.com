@@ -59,7 +59,7 @@ Vim 最大的特征与最大的困难就是键盘操作，所以快速移动光�
 
 ## 搜索结果之间跳转
 
-[在 Vim 中查找](https://harttle.land/2016/08/08/vim-search-in-file.html) 时，
+[在 Vim 中查找](https://www.harttle.com/2016/08/08/vim-search-in-file.html) 时，
 
 - `n` 跳转到下一个匹配。
 - `N` 跳转到上一个匹配。
@@ -79,8 +79,8 @@ Vim 最大的特征与最大的困难就是键盘操作，所以快速移动光�
 
 更多 Vim 多文件编辑操作可以参考：
 
-- [Vim 多文件编辑：标签页](https://harttle.land/2015/11/12/vim-tabpage.html)
-- [Vim 多文件编辑：窗口](https://harttle.land/2015/11/14/vim-window.html)
-- [Vim 多文件编辑：缓冲区](https://harttle.land/2015/11/17/vim-buffer.html)
+- [Vim 多文件编辑：标签页](https://www.harttle.com/2015/11/12/vim-tabpage.html)
+- [Vim 多文件编辑：窗口](https://www.harttle.com/2015/11/14/vim-window.html)
+- [Vim 多文件编辑：缓冲区](https://www.harttle.com/2015/11/17/vim-buffer.html)
 
 [vim-key]: /assets/img/blog/vim-key.png

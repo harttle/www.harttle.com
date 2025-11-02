@@ -1,7 +1,7 @@
 HarttleLand 博客主题
 =================
 
-本仓库是 **[Harttle Land](https://harttle.land)** 的源码，欢迎 Clone 和 Fork。
+本仓库是 **[Harttle Land](https://www.harttle.com)** 的源码，欢迎 Clone 和 Fork。
 
 ## 功能
 
@@ -18,13 +18,13 @@ HarttleLand 博客主题
 对于套用主题的情况，需要标明 Harttle Land 网站地址或本仓库地址，例如：
 
 ```
-Theme by <a href="https://harttle.land">Harttle Land</a>.
+Theme by <a href="https://www.harttle.com">Harttle Land</a>.
 ```
 
 对于转载文章的情况，需要给出原文链接，例如：
 
 ```
-原文链接：<a href="https://harttle.land/2016/08/08/vim-search-in-file.html">Vim 中搜索和替换</a>
+原文链接：<a href="https://www.harttle.com/2016/08/08/vim-search-in-file.html">Vim 中搜索和替换</a>
 ```
 
 ## 使用

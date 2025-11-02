@@ -111,7 +111,7 @@ xrandr --output HDMI2 --pos 3840x0 --rotate left --scale 2x2
 
 此外我们还希望显示器插入/拔出的时候，识别到之前的保存好的配置直接应用。
 最简单的方式是
-[从 AUR 安装](https://harttle.land/2019/04/30/install-aur-package.html) autorandr。
+[从 AUR 安装](https://www.harttle.com/2019/04/30/install-aur-package.html) autorandr。
 这是一个 python 封装过的 XRandR，提供了保存当前配置、加载某个配置、自动匹配并加载配置。
 
 ```bash
@@ -155,4 +155,4 @@ exec >> /home/harttle/log/autorandr.log 2>&1
 ```
 
 [xresource]: https://wiki.archlinux.org/index.php/X_resources
-[shell]: https://harttle.land/2016/06/08/shell-config-files.html
+[shell]: https://www.harttle.com/2016/06/08/shell-config-files.html

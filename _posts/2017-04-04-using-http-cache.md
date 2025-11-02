@@ -60,7 +60,7 @@ import http from 'http'
 
 let server = http.createServer((req, res) => {
   res.setHeader('Cache-Control', 'public, max-age=86400')
-  res.end('harttle.land')
+  res.end('www.harttle.com')
 })
 
 server.listen(3333)
@@ -93,7 +93,7 @@ let server = http.createServer((req, res) => {
   }
   else {
     res.setHeader('Etag', '00000000')
-    res.end('harttle.land')
+    res.end('www.harttle.com')
   }
 })
 
@@ -122,7 +122,7 @@ let server = http.createServer((req, res) => {
   }
   else {
     res.setHeader('Last-Modified', new Date().toString())
-    res.end('harttle.land')
+    res.end('www.harttle.com')
   }
 })
 

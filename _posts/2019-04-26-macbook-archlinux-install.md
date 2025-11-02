@@ -352,7 +352,7 @@ EndSection
 或 [man libinput](https://jlk.fjfi.cvut.cz/arch/manpages/man/libinput.4)，
 如果要配置三指、四指滑动等复杂交互，需要引入另一个驱动 xf86-input-mtrack，
 Harttle 给了一个比较接近 OSX 手感的配置方法：
-[Linux 下 MacBook 触摸板设置](https://harttle.land/2019/05/01/linux-macbook-trackpad-settings.html)。
+[Linux 下 MacBook 触摸板设置](https://www.harttle.com/2019/05/01/linux-macbook-trackpad-settings.html)。
 
 ## CPU 和图形
 
@@ -638,6 +638,6 @@ colormgr device-make-profile-default 'xrandr-Color LCD' icc-71f188d0fa2fb78f31a5
 * 字体选择和配置：<https://wiki.archlinux.org/index.php/Fonts_(简体中文)>
 * i3 官方教程文档：<https://i3wm.org/docs/userguide.html#multi_monitor>
 * PulseAudio 文档：<https://wiki.archlinux.org/index.php/PulseAudio>
-* 安装 AUR 软件包：<https://harttle.land/2019/04/30/install-aur-package.html>
+* 安装 AUR 软件包：<https://www.harttle.com/2019/04/30/install-aur-package.html>
 
-[install-from-aur]: https://harttle.land/2019/04/30/install-aur-package.html
+[install-from-aur]: https://www.harttle.com/2019/04/30/install-aur-package.html

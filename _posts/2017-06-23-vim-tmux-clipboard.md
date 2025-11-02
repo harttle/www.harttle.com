@@ -115,7 +115,7 @@ MacOS 下可以直接用 [brew](https://brew.sh/) 安装 macvim 是支持剪切�
 vim --version | grep clipboard
 ```
 
-更详细的配置和调试方式可以参考这篇文章：[Vim 使用系统剪切板](https://harttle.land/2020/09/04/vim-clipboard.html)。
+更详细的配置和调试方式可以参考这篇文章：[Vim 使用系统剪切板](https://www.harttle.com/2020/09/04/vim-clipboard.html)。
 
 [vim-tmux-focus-events]: https://github.com/tmux-plugins/vim-tmux-focus-events
 [vim-tmux-clipboard]: https://github.com/roxma/vim-tmux-clipboard

@@ -87,4 +87,4 @@ autossh -NR 8080:localhost:32400 harttle@example.com
 
 以上 ssh 命令都可以在 Linux 或 MacOS 下工作，如果在 Windows 下也有其他的选择。比如你安装了 WSL，那么可以在 WSL 里执行上述命令。也可以安装一个 SSH 客户端，比如在 PuTTY 下可以在“连接->SSH->隧道”里相应地设置本地和远程端口、IP。
 
-关于开机自动建立隧道，在 Linux 下可以把上述命令直接写成一个 systemd 脚本，可参考 [使用 systemd 管理 Node.js 应用](https://harttle.land/2016/08/04/systemd-nodejs-app.html) 一文；在 Windows 下可以利用任务计划程序建立一个任务，如果本地安装有 WSL，可以添加一个 Action 设置命令为 `wsl` 参数为 `autossh -NR 8080:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):32400 example.com`。注意 WSL2 启用了 HyperV 运行在某个子网下，宿主机器的 IP 是不确定的，需要用 `cat /etc/resolv.conf | grep nameserver | awk '{print $2}'` 来获得 WSL 宿主机器的 IP。
+关于开机自动建立隧道，在 Linux 下可以把上述命令直接写成一个 systemd 脚本，可参考 [使用 systemd 管理 Node.js 应用](https://www.harttle.com/2016/08/04/systemd-nodejs-app.html) 一文；在 Windows 下可以利用任务计划程序建立一个任务，如果本地安装有 WSL，可以添加一个 Action 设置命令为 `wsl` 参数为 `autossh -NR 8080:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):32400 example.com`。注意 WSL2 启用了 HyperV 运行在某个子网下，宿主机器的 IP 是不确定的，需要用 `cat /etc/resolv.conf | grep nameserver | awk '{print $2}'` 来获得 WSL 宿主机器的 IP。

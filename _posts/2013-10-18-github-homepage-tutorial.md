@@ -7,8 +7,8 @@ Github 提供了免费的静态文件服务，对于希望自建博客但又懒�
 
 目前 Github Pages 已经提供了完整的中文文档，本文的目的是帮助理解 Github 博客是怎么工作的，大概怎么搭建，以及一些常见问题。对于技术博客而言，会涉及怎么实现以下功能：
 
-* 代码片段高亮。代码高亮就是把你的代码片段按照指定的编程语言语法进行高亮，类似 IDE 里看到的五颜六色的代码。从 [这篇文章](https://harttle.land/2018/09/29/es6-iterators.html) 可以看到显示效果。
-* LaTex 公式渲染。对于需要在博客中编写数学公式的朋友，引入 LaTex 或 MathML 可以答复提升写博客的效率。从 [这篇文章](https://harttle.land/2018/06/29/javascript-numbers.html) 可以看到公式的显示效果。
+* 代码片段高亮。代码高亮就是把你的代码片段按照指定的编程语言语法进行高亮，类似 IDE 里看到的五颜六色的代码。从 [这篇文章](https://www.harttle.com/2018/09/29/es6-iterators.html) 可以看到显示效果。
+* LaTex 公式渲染。对于需要在博客中编写数学公式的朋友，引入 LaTex 或 MathML 可以答复提升写博客的效率。从 [这篇文章](https://www.harttle.com/2018/06/29/javascript-numbers.html) 可以看到公式的显示效果。
 * Google 统计。我们可以通过添加简单的代码实现 Google 统计，或者百度统计等，whatever。
 
 准备好电脑和网络后，我们就开始吧！

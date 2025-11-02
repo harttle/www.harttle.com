@@ -36,8 +36,8 @@ tags: Chrome Cookie SameSite Secure 跨域
 
 ```javascript
 document.cookie = "author=harttle; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/; domain=.foo.com";
-document.cookie = "site=harttle.land; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/; domain=.foo.com";
-console.log(document.cookie) // outputs "author=harttle; site=harttle.land"
+document.cookie = "site=www.harttle.com; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/; domain=.foo.com";
+console.log(document.cookie) // outputs "author=harttle; site=www.harttle.com"
 ```
 
 注意每次赋值只能包含一个 cookie 键值对，后续是这个 cookie 的属性。
@@ -55,7 +55,7 @@ console.log(document.cookie) // outputs "author=harttle; site=harttle.land"
 
 Secure 是布尔类型，设置了就是 secure 未设置就是 insecure；SameSite 比较讲究，有三种取值：
 
-* **None**：所有同域请求和跨栈请求浏览器都会发送 Cookie，这是 Chrome 80 之前的默认值。注意这里的跨栈请求是指 subrequest 比如加载一个图片资源。fetch 和 XHR 携带 Cookie 遵循 CORS 标准，可以参考 [CORS 跨域发送 Cookie](https://harttle.land/2016/12/28/cors-with-cookie.html) 一文。
+* **None**：所有同域请求和跨栈请求浏览器都会发送 Cookie，这是 Chrome 80 之前的默认值。注意这里的跨栈请求是指 subrequest 比如加载一个图片资源。fetch 和 XHR 携带 Cookie 遵循 CORS 标准，可以参考 [CORS 跨域发送 Cookie](https://www.harttle.com/2016/12/28/cors-with-cookie.html) 一文。
 * **Strict**：只有同域请求（从设置 Cookie 的域发起的请求）浏览器才发送 Cookie。包括 subrequest，也包括顶级跳转（top-level navigations），也就是说只有从自己的网站发起的跳转请求或资源请求才发送 Cookie。
 * **Lax**：只有顶级跳转才跨域发送 Cookie，subrequest 不发送，这是 Chrome 80 之后的默认值。也就是说页面里的跨域图片不会发送 Cookie，但用户点击超链接跳转到其他域仍然会发送。
 
@@ -95,11 +95,11 @@ Chrome >= 80 + SameSite=None | ✔ | ✔ | ✔
 2. 设置这些 Cookie 的地方同时再设置一个名字对应的 Cookie 项，设置 `Secure` 和 `SameSite=None`。
 3. 使用这些 Cookie 的地方取第二个，fallback 到第一个。
 
-[http]: https://harttle.land/2014/10/01/http.html
+[http]: https://www.harttle.com/2014/10/01/http.html
 [dom2]: https://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-8747038
 [cookie]: https://developer.mozilla.org/zh-CN/docs/Web/API/Document/cookie
 [cookie-list]: /assets/img/blog/http/cookie-list@2x.png
 [chrome-release]: https://www.chromestatus.com/features/schedule
 [chrome-80]: https://www.chromestatus.com/features#milestone%3D80
 [csrf]: https://developer.mozilla.org/en-US/docs/Glossary/CSRF
-[cookie]: https://harttle.land/2015/08/10/cookie-session.html
+[cookie]: https://www.harttle.com/2015/08/10/cookie-session.html

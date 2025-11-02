@@ -97,7 +97,7 @@ aurman -S macbook-lighter
 
 * AUR 工具列表：<https://wiki.archlinux.org/index.php/AUR_helpers>
 * makepkg 文档：<https://wiki.archlinux.org/index.php/Makepkg>
-* MacBook 安装 ArchLinux：<https://harttle.land/2019/04/26/macbook-archlinux-install.html>
+* MacBook 安装 ArchLinux：<https://www.harttle.com/2019/04/26/macbook-archlinux-install.html>
 * MacBook Lighter 仓库：<https://github.com/harttle/macbook-lighter>
 
 [base]: https://www.archlinux.org/groups/x86_64/base/

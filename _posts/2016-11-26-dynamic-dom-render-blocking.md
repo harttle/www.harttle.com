@@ -148,7 +148,7 @@ document.body.append(script);
 
 ```javascript
 createScript('https://cdn.jsdelivr.net/npm/react@15.4.0/dist/react.js');
-createScript('https://harttle.land/this/will/404.js');
+createScript('https://www.harttle.com/this/will/404.js');
 function createScript(src){
     var el = document.createElement('script');
     el.src = src;

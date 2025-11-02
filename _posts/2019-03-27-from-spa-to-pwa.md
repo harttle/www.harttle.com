@@ -157,9 +157,9 @@ SPA 中页面跳转分两种情况：一种是用户与 DOM 交互由脚本 [pus
 ## PWA 带来的机会
 
 还不了解 PWA 的同学建议先去阅读笔者在 2017 年给的调研：
-[PWA 初探：基本特性与标准现状](https://harttle.land/2017/01/28/pwa-explore.html)，
+[PWA 初探：基本特性与标准现状](https://www.harttle.com/2017/01/28/pwa-explore.html)，
 除了目前 PWA 已经得到 [所有主流浏览器][sw-ready] 的支持外，其他内容仍然有效。
-此外 [Harttle Land](https://harttle.land) 也在年初支持了 PWA，你现在就可以把它添加到桌面，或添加到主屏，
+此外 [Harttle Land](https://www.harttle.com) 也在年初支持了 PWA，你现在就可以把它添加到桌面，或添加到主屏，
 也可以离线浏览（比如现在切断网络，刷新本页面）。
 
 PWA 一词出自 Alex Russell 的 [Progressive Web Apps: Escaping Tabs Without Losing Our Soul][pwa]，
@@ -282,28 +282,28 @@ SPA 的复杂性在于业务之间因为框架技术（尤其是组件化）而�
 
 * <https://calibreapp.com/blog/time-to-interactive/>
 * <https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration>
-* <https://harttle.land/2016/11/26/static-dom-render-blocking.html>
-* <https://harttle.land/2016/11/26/static-dom-render-blocking.html>
-* <https://harttle.land/2016/11/26/dynamic-dom-render-blocking.html>
-* <https://harttle.land/2017/01/16/dynamic-script-insertion.html>
+* <https://www.harttle.com/2016/11/26/static-dom-render-blocking.html>
+* <https://www.harttle.com/2016/11/26/static-dom-render-blocking.html>
+* <https://www.harttle.com/2016/11/26/dynamic-dom-render-blocking.html>
+* <https://www.harttle.com/2017/01/16/dynamic-script-insertion.html>
 * <https://angular.io/api/core/NgModule>
 * <https://angular.io>
 * <https://reactjs.org/docs/react-component.html>
-* <https://harttle.land/2016/11/26/static-dom-render-blocking.html>
+* <https://www.harttle.com/2016/11/26/static-dom-render-blocking.html>
 * <https://zh.wikipedia.org/wiki/%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8>
 * <https://developer.mozilla.org/zh-CN/docs/Web/API/History/pushState>
 * <https://developer.mozilla.org/zh-CN/docs/Web/Events/popstate>
 * <https://developer.mozilla.org/zh-CN/docs/Web/API/PopStateEvent>
-* <https://harttle.land/2015/08/16/localstorage-sessionstorage-cookie.html>
-* <https://harttle.land/2017/01/28/pwa-explore.html>
+* <https://www.harttle.com/2015/08/16/localstorage-sessionstorage-cookie.html>
+* <https://www.harttle.com/2017/01/28/pwa-explore.html>
 * <https://reactjs.org/>
 * <https://cn.vuejs.org/index.html>
 * <https://vuex.vuejs.org/zh/guide/>
 * <https://redux.js.org/api/store>
 * <https://router.vuejs.org/zh/>
-* <https://harttle.land/2017/04/09/service-worker-now.html>
-* <https://harttle.land/2017/12/24/launch-app-from-browser.html>
-* <https://harttle.land/2016/12/30/cors-preflight.html>
+* <https://www.harttle.com/2017/04/09/service-worker-now.html>
+* <https://www.harttle.com/2017/12/24/launch-app-from-browser.html>
+* <https://www.harttle.com/2016/12/30/cors-preflight.html>
 * <https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty>
 * <https://developer.mozilla.org/zh-CN/docs/Web/API/History>
 * <https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy>
@@ -315,29 +315,29 @@ SPA 的复杂性在于业务之间因为框架技术（尤其是组件化）而�
 * <https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/>
 * <https://www.w3.org/2019/Process-20190301/#Reports>
 * <https://developer.mozilla.org/zh-CN/docs/Web/Guide/AJAX>
-* <https://harttle.land/2019/03/14/the-developer-experience-bait-and-switch-zh.html>
+* <https://www.harttle.com/2019/03/14/the-developer-experience-bait-and-switch-zh.html>
 
 [sr]: https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration
-[dynamic-script]: https://harttle.land/2017/01/16/dynamic-script-insertion.html
+[dynamic-script]: https://www.harttle.com/2017/01/16/dynamic-script-insertion.html
 [pwa]: https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
 [less-js]: https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/
 [ng-module]: https://angular.io/api/core/NgModule
 [ng]: https://angular.io
 [comp]: https://reactjs.org/docs/react-component.html
-[static-render]: https://harttle.land/2016/11/26/static-dom-render-blocking.html
+[static-render]: https://www.harttle.com/2016/11/26/static-dom-render-blocking.html
 [pushState]: https://developer.mozilla.org/zh-CN/docs/Web/API/History/pushState
 [popstate]: https://developer.mozilla.org/zh-CN/docs/Web/Events/popstate
 [popstate-event]: https://developer.mozilla.org/zh-CN/docs/Web/API/PopStateEvent
-[local-store]: https://harttle.land/2015/08/16/localstorage-sessionstorage-cookie.html
-[pwa]: https://harttle.land/2017/01/28/pwa-explore.html
+[local-store]: https://www.harttle.com/2015/08/16/localstorage-sessionstorage-cookie.html
+[pwa]: https://www.harttle.com/2017/01/28/pwa-explore.html
 [react]: https://reactjs.org/
 [vue]: https://cn.vuejs.org/index.html
 [vuex]: https://vuex.vuejs.org/zh/guide/
 [redux]: https://redux.js.org/api/store
 [vue-router]: https://router.vuejs.org/zh/
-[sw]: https://harttle.land/2017/04/09/service-worker-now.html
-[deep-link]: https://harttle.land/2017/12/24/launch-app-from-browser.html
-[cors-preflight]: https://harttle.land/2016/12/30/cors-preflight.html
+[sw]: https://www.harttle.com/2017/04/09/service-worker-now.html
+[deep-link]: https://www.harttle.com/2017/12/24/launch-app-from-browser.html
+[cors-preflight]: https://www.harttle.com/2016/12/30/cors-preflight.html
 [same-origin]: https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy
 [id]: https://en.wikipedia.org/wiki/Fragment_identifier
 [ssr]: https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38
@@ -345,11 +345,11 @@ SPA 的复杂性在于业务之间因为框架技术（尤其是组件化）而�
 [sw-ready]: https://jakearchibald.github.io/isserviceworkerready/
 [w3c-process]: https://www.w3.org/2019/Process-20190301/#Reports
 [tti]: https://calibreapp.com/blog/time-to-interactive/
-[static-render]: https://harttle.land/2016/11/26/static-dom-render-blocking.html
-[sync]: https://harttle.land/2016/11/26/static-dom-render-blocking.html
-[async]: https://harttle.land/2016/11/26/dynamic-dom-render-blocking.html
+[static-render]: https://www.harttle.com/2016/11/26/static-dom-render-blocking.html
+[sync]: https://www.harttle.com/2016/11/26/static-dom-render-blocking.html
+[async]: https://www.harttle.com/2016/11/26/dynamic-dom-render-blocking.html
 [ajax]: https://developer.mozilla.org/zh-CN/docs/Web/Guide/AJAX
 [spa]: https://zh.wikipedia.org/wiki/%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8
 [defineProperty]: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
 [history]: https://developer.mozilla.org/zh-CN/docs/Web/API/History
-[dev-exp]: https://harttle.land/2019/03/14/the-developer-experience-bait-and-switch-zh.html
+[dev-exp]: https://www.harttle.com/2019/03/14/the-developer-experience-bait-and-switch-zh.html

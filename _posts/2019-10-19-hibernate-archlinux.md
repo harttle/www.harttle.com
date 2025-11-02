@@ -201,5 +201,5 @@ SUBSYSTEM=="power_supply", ATTR{status}=="Discharging", ATTR{capacity}=="[0-5]",
 [acpid]: https://wiki.archlinux.org/index.php/Acpid
 [acpi]: https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface
 [hibernate]: https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate#Hibernation
-[archinstall]: https://harttle.land/2019/04/26/macbook-archlinux-install.html
+[archinstall]: https://www.harttle.com/2019/04/26/macbook-archlinux-install.html
 [dpms]: https://wiki.archlinux.org/index.php/DPMS

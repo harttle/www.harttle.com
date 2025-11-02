@@ -30,7 +30,7 @@ tags: Bash Github Vim grep awk sed JSON Jekyll
 
 所以需要一个标签库，然后从当前文章匹配那些既有标签。
 那么，我需要比较完整的标签库，同时要有我的技术特色。
-我在 harttle.land 已经有219篇文章了，把它们标签拿出来不就是现成的标签库嘛！
+我在 www.harttle.com 已经有219篇文章了，把它们标签拿出来不就是现成的标签库嘛！
 **所以，可以从Jekyll站点中提取标签形成标签库**。
 
 ### 需要Bash脚本+Vim插件
@@ -42,7 +42,7 @@ tags: Bash Github Vim grep awk sed JSON Jekyll
 ## Jekyll标签页面
 
 既然要使用Jekyll既有的标签库，那么需要一个Jekyll页面来生成那些标签。
-恰好[我的博客][harttle.land]有一个`tags.json`：
+恰好[我的博客][www.harttle.com]有一个`tags.json`：
 
 ```liquid
 {% raw  %}---
@@ -58,7 +58,7 @@ tags: Bash Github Vim grep awk sed JSON Jekyll
 ]{% endraw %}
 ```
 
-它生成的页面就是一个JSON文件（也可以访问 <https://harttle.land/api/tags.json> 查看）：
+它生成的页面就是一个JSON文件（也可以访问 <https://www.harttle.com/api/tags.json> 查看）：
 
 ```json
 [
@@ -158,4 +158,4 @@ OK，至此我们在Jekyll站点中用Vim打开一篇文章（xxx.md），输入
 * <http://vim.wikia.com/wiki/Append_output_of_an_external_command>
 * <https://andrew.stwrt.ca/posts/project-specific-vimrc/>
 
-[harttle.land]: https://harttle.land
+[www.harttle.com]: https://www.harttle.com

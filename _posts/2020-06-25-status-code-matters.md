@@ -97,4 +97,4 @@ el.html(res.text())
 [http]: https://www.ietf.org/rfc/rfc2616.txt
 [rest]: https://en.wikipedia.org/wiki/Representational_state_transfer
 [status]: /2015/08/15/http-status-code.html
-[canonical]: https://harttle.land/2015/07/25/bash-file-batch.html
+[canonical]: https://www.harttle.com/2015/07/25/bash-file-batch.html

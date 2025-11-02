@@ -3,7 +3,7 @@ title: Linux 下共享代理到局域网
 tags: Linux iptables ipset 路由 redsocks
 ---
 
-这个博客在八年前分享过 [用 Linux 做 WiFi 热点](https://harttle.land/2014/10/08/linux-route.html)，今天的设备和软件已经完全不同了。可以很方便地做曾经很复杂的事情，同时这个世界也更复杂了。现在我们要实现的是 **把代理分享给局域网，连上 WiFi 即连上了代理**。
+这个博客在八年前分享过 [用 Linux 做 WiFi 热点](https://www.harttle.com/2014/10/08/linux-route.html)，今天的设备和软件已经完全不同了。可以很方便地做曾经很复杂的事情，同时这个世界也更复杂了。现在我们要实现的是 **把代理分享给局域网，连上 WiFi 即连上了代理**。
 
 这件事最简单的办法是直接刷一个 OpenWrt，较为复杂的办法是刷一个 unRaid、PVE 或 ESXi 上面装一个 OpenWrt，最复杂的办法是在 ArchLinux 里手动配各种服务。本文就来介绍这个最复杂的办法。因为一来笔者更熟悉这老旧的东西，Linux 不需要赶潮流也能用得很好，即便几十年前的 Linux 技术今天仍然管用；二来手动搭建起来虽然麻烦，但是单 OS 的架构比较简单，后期维护时不容易忘掉。整个架构的思路大概是：
 
@@ -57,7 +57,7 @@ DHCP 服务是关键，它指定了局域网中的设备的 IP 和掩码、如�
 1. 让局域网的设备把网关（Gateway）设置为我们的 Linux 机器。
 2. 为这些设备设置 DNS 为我们的 Linux 机器，并作为唯一的 DNS（很重要，见下文）。
 
-> 这一设置可以在既有的路由器上设置，也可以关掉路由器的 DNS 服务，本机启动一个 dhcpd 可以参考 [这里](https://harttle.land/2014/10/08/linux-route.html)。
+> 这一设置可以在既有的路由器上设置，也可以关掉路由器的 DNS 服务，本机启动一个 dhcpd 可以参考 [这里](https://www.harttle.com/2014/10/08/linux-route.html)。
 
 必须本地开启 DNS 服务是为了避免公网的 DNS 污染。这一点很重要，也是透明代理和浏览器代理（SOCKS5 或 HTTP）的区别：对于后者 DNS 发生在代理服务端，而对于前者 DNS 发生在客户端（也就是局域网的每一台机器上）。如果 DNS 返回的 IP 不正确，即使把流量倒给 redsocks 也无法得到正确的应答。
 
@@ -95,7 +95,7 @@ iptables -t nat -A PREROUTING -s 192.168.1.1/24 -p tcp -j REDSOCKS_FILTER
 iptables -t nat -I OUTPUT -p tcp -m owner --uid-owner proxy -j RETURN
 ```
 
-这样局域网的机器连进来（如果是 WiFi 网络的话），关掉自己的代理（如果有的话），清空自己的 DNS 缓存，就可以全局走本机的 SOCKS5 代理了。 注意 iptables 配置默认不会持久化，可以参考 [用 Linux 做 WiFi 热点](https://harttle.land/2014/10/08/linux-route.html) 一文。
+这样局域网的机器连进来（如果是 WiFi 网络的话），关掉自己的代理（如果有的话），清空自己的 DNS 缓存，就可以全局走本机的 SOCKS5 代理了。 注意 iptables 配置默认不会持久化，可以参考 [用 Linux 做 WiFi 热点](https://www.harttle.com/2014/10/08/linux-route.html) 一文。
 
 ## 设置 IP 黑名单
 

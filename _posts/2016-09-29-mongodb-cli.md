@@ -40,7 +40,7 @@ db.users.drop()
 ```javascript
 db.users.insert({
     name: 'harttle',
-    url: 'https://harttle.land'
+    url: 'https://www.harttle.com'
 })
 ```
 
@@ -63,7 +63,7 @@ db.users.find().pretty()
 db.users.update({
     name: 'harttle'
 }, {
-    url: 'https://harttle.land'    
+    url: 'https://www.harttle.com'    
 })
 ```
 
@@ -74,7 +74,7 @@ db.users.update({
 db.users.remove({})
 # 条件删除
 db.users.remove({
-    url: 'https://harttle.land'
+    url: 'https://www.harttle.com'
 })
 ```
 

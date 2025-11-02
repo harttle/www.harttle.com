@@ -20,7 +20,7 @@ JavaScript 是一种 [通用编程语言][gppl]，这类语言的转义相对比
 
 [html][html] 是一种标记语言，就像其他编程语言一样，它可以表示包括它的语法在内的所有字符。但 HTML 中反斜线不是转义字符，而是以 `&` 起始的字符串。
 [这里有一个 HTML 特殊字符码表](https://www.freeformatter.com/html-entities.html#iso88591-characters)，
-[HarttleLand](https://harttle.land) 站的主题中就使用了很多的这些字符。
+[HarttleLand](https://www.harttle.com) 站的主题中就使用了很多的这些字符。
 
 ### HTML 转义语法
 
